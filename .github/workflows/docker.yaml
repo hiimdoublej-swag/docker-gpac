@@ -21,6 +21,7 @@ jobs:
         version:
         - ""
         - "2.2.1"
+        - "7a3eca9"
         flavor:
         - ""
         - slim
@@ -30,6 +31,8 @@ jobs:
         - latest: true
           version: ""
           flavor: ""
+        - version: "7a3eca9"
+          download_url: https://github.com/gpac/gpac/archive/7a3eca9.tar.gz
 
     steps:
     - name: Checkout
